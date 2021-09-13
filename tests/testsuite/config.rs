@@ -655,6 +655,7 @@ Caused by:
   invalid value: integer `123456789`, expected i8",
     );
 
+    #[allow(dead_code)]
     #[derive(Debug, Deserialize)]
     #[allow(dead_code)]
     struct S {
@@ -1172,6 +1173,7 @@ fn table_merge_failure() {
         ",
     );
 
+    #[allow(dead_code)]
     #[derive(Debug, Deserialize)]
     #[allow(dead_code)]
     struct Table {
